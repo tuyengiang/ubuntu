@@ -1,0 +1,234 @@
+<DOCTYPE html>
+<html>
+	<head>
+			<title> Tuần 3</title>
+			<meta charset="utf-8"/>
+	</head>
+	
+	<body>
+		chào mừng các bạn đến với nhóm 3 web<br>
+
+
+		Văn bản<br>
+		<hr color="blue">
+		Thẻ định đạnh văn bản <br>
+		<b> chữ đậm </b><br>
+		<i> Chữ Nghiêng</i><br>
+		<u> chữ gạch chân</u><br>
+		<s> chữ gạch ngang</s><br>
+
+		<br>
+		Thẻ tiêu đề
+		<h1>Thẻ h1</h1><br>
+		<h2>Thẻ h2</h2><br>
+		<h3>Thẻ h3</h3><br>
+		<h4>Thẻ h4</h4><br>
+		<h5>Thẻ h5</h5><br>
+		<h6>Thẻ h6</h6><br>
+
+		Thẻ marquee<br> <hr color="blue"/>
+		<marquee bgcolor="lightblue"
+		width="600" height="100" direction="down"> Chào Mừng các bạn
+		</marquee><br>
+
+		<marquee bgcolor="green"
+		width="600" height="100" behavior="alternate"><font color="white" face="arial"  size="3">Chào Mừng các bạn</font>
+		</marquee>
+		<br>
+
+		Chèn ảnh<br>
+		<hr color="blue">
+		<img src ="img/anh.jpg" alt="ảnh là đây" title="hình ảnh" width="400" height="400"><br>
+
+        Thẻ chèn video<br>
+        <hr color="blue">
+        <video controls width="600" height="600">
+         <source src="video/hoiten.mp4" type="video/mp4" >
+        </video><br>
+        <br>
+
+        Thẻ chèn audio<br>
+        <hr color="blue">
+        <audio controls width="400" height="100">
+         <source src="mp3/giang.mp3" type="audio/mp3">	
+        </audio>
+        <br><br>
+
+        Thẻ liên kết<br>
+        <a href="http://youtube.com" title="Đây là link youtube" target="_Blank">
+         Youtube.com
+        </a><!-- Thẻ liên kết-->
+        <br><br>
+
+        Thẻ form<br>
+        <form method="" action="">
+        nhập tên :<input type="text" name="tự đặt" placeholder="Nhập tên bạn" size="150"><br>
+
+        	mật khẩu:<input type="password" name="tự đặt" placeholder="Nhập tên bạn" size="150">
+        	
+        	<BR>
+        	<br>
+        	<input type="submit" title="dăng nhập" value="đăng nhập">
+<br><br>
+        	<button type="submit">đăng ký</button>
+        </form>
+
+        <br>
+
+        <h1>Tạo table</h1><br>
+        <hr>
+        <table border="1">
+        		<thead style="background:green;color:white;border-collapse:collapse;">
+        			<th> STT</th>
+        			<th> Họ và tên</th>
+        			<th>MSV</th>
+        		</thead><!--thead-->
+        		<tbody>
+        			<tr>
+        				<td colspan="2">Nối cột 1 và cột 2</td>
+        				<td>151-000000</td>
+        			</tr>
+        			<tr>
+        				<td rowspan="2">nối hàng 2 và hàng 3</td>
+        				<td>151-000000</td>
+        			</tr>
+        			<tr>
+        				
+        				<td>Nguyen tuyen giang</td>
+        				<td>151-000000</td>
+        			</tr>
+        			<tr>
+        				<td>1</td>
+        				<td>Nguyen tuyen giang</td>
+        				<td>151-000000</td>
+        			</tr>
+        		</tbody>
+        </table>
+
+        <br><br>
+        <table border="1">
+        	<thead style="background:#ff3333;color:white;border-collapse:collapse;">
+        		<th>STT</th>
+        		<th>Họ Tên</th>
+        		<th>MSv</th>
+
+        	</thead>
+        	<tbody>
+        		<tr>
+        			<td>1</td>
+        			<td>nhóm 3</td>
+        			<td>3</td>
+        		</tr>
+        		<tr>
+        			<td>1</td>
+        			<td>nhóm 3</td>
+        			<td>3</td>
+        		</tr>
+        		<tr>
+        			<td>1</td>
+        			<td>nhóm 3</td>
+        			<td>3</td>
+        		</tr>
+        		<tr>
+        			<td>1</td>
+        			<td>nhóm 3</td>
+        			<td>3</td>
+        		</tr>
+        		<tr>
+        			<td>1</td>
+        			<td>nhóm 3</td>
+        			<td>3</td>
+        		</tr>
+
+        	</tbody>
+        </table>
+
+
+        <br>
+
+        <br>
+        <h1> Form Đăng Ký</h1>
+        <hr color="green"><br>
+
+        <form>
+        	<table border="1">	
+        		<tr>
+        			<td>Nhập Username</td>
+        			<td><input type="text" name="user" placeholder="Nhập User"></td>
+        		</tr>	
+        		<tr>
+        			<td>Nhập password</td>
+        			<td><input type="password" name="pass"
+        				placeholder="Nhập Password"></td>
+        		</tr>
+        		<tr>
+        			<td>Brithday</td>
+        			<td>
+	        			<select name="ngay">
+	        				<option value="1">1</option>
+	        				<option value="1">2</option>
+	        				<option value="1">3</option>
+	        				<option value="1">4</option>
+	        				<option value="1">5</option>
+	        			</select>
+	        			<select name="tháng">
+	        				<option value="1">1</option>
+	        				<option value="1">2</option>
+	        				<option value="1">3</option>
+	        				<option value="1">4</option>
+	        				<option value="1">5</option>
+	        			</select>
+	        			<select name="nam">
+	        				<option value="1">1970</option>
+	        				<option value="1">2</option>
+	        				<option value="1">3</option>
+	        				<option value="1">4</option>
+	        				<option value="1">2017</option>
+	        			</select>
+
+        			</td>
+
+        		</tr>
+
+        		<tr>
+        			<td>Gender</td>
+        			<td>
+        				<input type="radio" name="1">Nam
+        				<input type="radio" name="1">Nữ
+        				<input type="radio" name="1">3Pha
+        			</td>
+        		</tr>
+
+        		<tr>
+        			<td>Giới Thiệu Bản Thân</td>
+        			<td>
+        				<textarea rows="10" cols="40" placeholder="Nhập Sở Thích Của Bạn"></textarea>
+
+        			</td>
+        		</tr>
+        		<tr>
+        			<td></td>
+        			<td>
+        				<input type="submit" value="Đăng Ký">
+        				<button type="submit">Close</button>
+        			</td>
+        		</tr>
+        		<tr>
+        			<td>Tại sao bạn tạo tài  khoản này</td>
+        			<td>
+        				<input type="checkbox" checked="checked">Tôi thích web
+        				<input type="checkbox">Tôi thích web
+        				<input type="checkbox">Tôi thích web
+        				<input type="checkbox">Tôi thích web
+        				<input type="checkbox">Tôi thích web
+        			</td>
+
+        		</tr>
+       
+        	</table>
+        </form>
+	
+	</body>
+	
+
+</html>

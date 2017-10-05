@@ -1,0 +1,39 @@
+h5{
+	color: red;  /*color: màu chữ;*/
+	background: orange; /*background hoac background-color: màu nền*/
+	font-size: 50px;/*kích thước chữ*/
+	font-family: Times New Roman; /*font chữ*/
+	font-style: italic; /*font-style: kiểu chữ, italic: nghiêng*/
+	text-align: center;/*text-align: vị trí chữ*/
+	text-decoration: underline; /*gạch chân*/
+}
+
+#toilatoipham h2{
+	color: pink
+
+}
+
+.toipham h2{
+	color: red;
+	font-size: 50px;
+	background: green;
+	font-style: italic;
+	text-decoration: underline;
+	text-align: right;
+}
+
+
+
+
+
+/*đây, css cho khung ảnh trước*/
+.khunganh{
+	width: 1000px; /*chiều ngang*/
+	height: 1000px; /*chiều dọc*/
+	background: #333;
+}
+/*css cho ảnh với chiều ngang của ảnh chiếm 90% khung ảnh, chiều dọc chiếm 80% khung ảnh*/
+.khunganh img{
+	width: 90%;
+	height:80%
+}

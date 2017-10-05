@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>css co ban</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<!-- css là gì -->
+<!-- CSS là chữ viết tắt của cụm từ tiếng Anh "Cascading Style Sheet", dịch ra tiếng Việt thì thực sự mình cũng không thể dịch cho chuẩn được blush, nhưng về ý nghĩa thì CSS dùng để trình bày bổ cục của một Website dựa vào các thẻ HTML. Nói nôm na thì CSS sẽ tác động thay đổi cách hiển thị mặc định của các thẻ HTML nhằm thân thiện với người dùng hơn hay nhằm một mục đích cụ thể nào đó.
+
+Có một ví dụ trực quan để diễn tả nhiệm vụ của CSS như sau, giả sử bạn xây nhà và bạn sẽ sử dụng gạch để xây dựng ngôi nhà. Nhưng để trang trí cho ngôi nhà thì bạn sẽ sử dụng một số đồ nội thất khác như sơn màu, ... thì lúc này sơn màu sẽ tác động làm thay đổi color mặc định của gạch. Nói ví von thi màu sơn chính là CSS và gạch chính là HTML.
+
+CSS đóng một vai trò rất quan trọng khi bạn xây dựng giao diện Website. Thông thường bạn sẽ  sử dụng một chương trình thiết kế như Photoshop để tạo giao diện, sau đó các Frontend Developer sẽ dựa vào file đó kết hợp với HTML & CSS để convert thanh một file có đuôi mở rộng là .html, file File này sẽ chứa code HTML và CSS. -->
+
+	<!-- có 3 cáh viết css -->
+
+    <!--c1: day la phan inline:  -->
+    <!-- <tag vietcssoday> </tag> -->
+	<p style="color: red;background-color: lightblue"> Nguyễn Xuân Chiến Tuấn </p>
+
+
+	<!--c2: day la internal -->
+	<!-- <tag> vietcssoday </tag> -->
+	<h1> hello word 
+
+		<style type="text/css">
+		 	h1{
+		 		background: red;
+		 		color: blue;
+		 		font-weight: bold;
+		 		font-size: 200px;
+		 		text-decoration:underline;
+		 	}
+		</style>
+
+	</h1>
+
+	<!-- c3: external: viết 1 file html (trong file html viết code html) + 1 file css(trong file css viết code của css) , 2 file được nối với nhau bởi dòng lệnh này (đặt trên phần head) 
+		<link rel="stylesheet" type="text/css" href="đường dẫn tới file css">
+
+	-->
+
+
+<h5>hôm nay là thứ mấy?</h5>
+	<!-- trong css, để design  cho vùng nào, thì ta đặt vùng đó trong cặp thẻ <div> </div> và đặt class/id cho nó -->
+	<!-- id:chỉ dùng 1 lần cho 1 tên, class, có thể dùng nhiều lần cho 1 tên -->
+	<!-- khi viết css, id sẽ là dấu #, class là dấu . -->
+
+<!-- id -->
+<div id="toilatoipham">
+	<h2>hôm nay là thứ mấy???</h2>
+</div>
+
+
+
+<!-- class -->
+<div class="toipham">
+	<h2>hôm nay là thứ 5</h2>
+</div>
+
+<div class="toipham">
+	<h2>hôm nay là thứ 6</h2>
+</div>
+<div class="toipham">
+	<h2>hôm nay là thứ 6</h2>
+</div>
+
+
+<!-- css cho imgages -->
+<!-- bỏ toàn bộ câu lệnh html img src vào cặp thẻ div -->
+<!-- ở đây, hiểu cặp thẻ div là khung ảnh, img src là ảnh -->
+<!-- muốn css cho ảnh, ta phải css cho ảnh trước -->
+
+<div class="khunganh">
+	<img src="img/web_club.jpg">
+</div>
+<!-- sang bên css mà xem code đi -_- đọc chi mà lắm -->
+
+
+
+
+
+</body>
+</html>

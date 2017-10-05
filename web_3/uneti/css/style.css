@@ -1,0 +1,107 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:roboto;
+}
+body{
+	width:85%;
+	margin:auto;
+}
+/**header*/
+#header{
+	width:100%;
+	height:150px;
+}
+#header img{
+	width:100%;
+	height:150px;
+}
+
+/**menu**/
+#menu{
+	width:100%;
+	height:40px;
+	background:#0098DB;
+	border-radius:0.5em;/*bo vien*/
+}
+#menu li{
+	list-style-type:none;/** bo dau cham trk moi list**/
+	float:left;
+	/**display:inline-block; --lam hang cac the li cho phep thay 
+	doi dp rong va height**/
+	/*display:inline;/*lam thang cac the li va ngc lai inline-bock**/
+	width:165px;
+	height:40px;
+	border-right:1px solid white;
+}
+#menu li a{
+	text-decoration:none;/*bo gach chan the a*/
+	color:white;
+	display:block;/* xac dinh hien thi*/
+	line-height:40px;/* can chinh tren duoi*/
+	text-align:center;/* can le chu cho ra giua*/
+	font-size:15px;/*kich thuoc chu*/
+	font-weight:bold;/* do dam cua chu*/
+	transition:0.5s ease all;
+}
+#menu li a:hover{
+	transition:0.5s ease all;
+	background:red;
+}
+/**main**/
+#main{
+	width:100%;
+	margin-top:10px;
+}
+#main-left{
+	float:left;
+	width:69%;
+	height:500px;
+	border:1px solid #0098db;
+}
+#main-right{
+	float:left;
+	width:30%;
+	height:500px;
+	margin-left:5px;	
+	border:1px solid #0098db;
+}
+/**title**/
+#title{
+	width:100%;
+	height:40px;
+	background:#0098db;
+	color:white;
+	line-height:40px;
+}
+/****/
+form{
+	width:90%;
+	margin:auto;
+	height:300px;
+	margin-top:10px;
+}
+input{
+	width:100%;
+	height:40px;
+	margin-top:10px;
+	border-radius:0.5em;
+	border:1px solid #ddd;
+}
+input[type="radio"]{
+	width:5%;
+	margin-top:10px;
+	height:10px;
+}
+
+button{
+	width:50%;
+	margin-top:20px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	border:none;
+	background:#0098db;
+	color:white;
+	cursor:pointer;
+}

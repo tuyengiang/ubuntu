@@ -1,0 +1,114 @@
+*{
+	padding:0;/*căn lề trong*/
+	margin:0;/*căn bên ngoài các thẻ*/
+}
+body{
+	width:1000px;
+	margin:auto;
+	/*padding:0.5em;*/
+	/*border:1px solid #ff3333;/* tao khung*/
+}
+
+
+h2{
+	background:red;/* màu nền h2*/
+	width:600px;/* độ rộng*/
+	margin-top:30px; /*right,left,bottom*/
+	height:100px;/*chiều cao*/
+	line-height:100px;/* căn lề đối xứng trên dưới chữ*/
+	font-size:50px;/*kích thước chữ*/
+	color:white; /*màu chữ*/
+	font-weight:bold; /* Độ đậm của chữ */
+}
+#vung1{
+	width:100%;
+	height:100px;
+	margin-top:10px;
+	color:green;
+	background:lightgray;
+}
+
+#vung2{
+	width:100%;
+	height:100px;
+	margin-top:10px;
+	color:red;
+	background:yellow;
+}
+.class1{
+	width:32%;
+	float:left;/*can le*/ 
+	height:100px;
+	background:blue;
+	color:white;
+	margin-top:10px;
+	margin-left:10px;
+}
+/***********/
+#header{
+	width:100%;
+	height:150px;
+	border:1px solid black;
+}
+/**menu*/
+#menu{
+	width:100%; /**do rong*/
+	height:40px;/*chieu cao*/
+	background:#0098DB;/*mau nen*/
+	margin-top:10px;
+}
+#menu li{
+	list-style-type:none;/** kieu hien thi thi li**/
+	width:150px;
+	height:40px;
+	float:left;/* can le*/
+	border-right:1px solid white;
+}
+#menu li a{
+	text-decoration:none;/* bo di dau gach chan cua the a */
+	color:white;
+	display:block;/* kieu hien thi*/
+	line-height:40px;
+	text-align:center;
+}
+#menu li a:hover{
+	background:red;
+}
+
+/**main**/
+#main{
+	width:100%;
+	height:500px;
+	float:left;
+	margin-top:10px;
+}
+#main-left{
+	width:69%;
+	float:left;
+	height:500px;
+	border:1px solid #0098DB;
+}
+#main-right{
+	width:30%;
+	float:left;
+	height:300px;
+	margin-left:5px;/*cach ben trai*/
+	border:1px solid #0098DB;
+}
+
+/**silebar**/
+
+#silebar{
+	width:69%;
+	margin-top:10px;
+	height:300px;
+	border:1px solid #0098DB;
+}
+
+/**botom**/
+#bottom{
+	width:100%;
+	height:100px;
+	background:#0098DB;
+	margin-top:10px;
+}
